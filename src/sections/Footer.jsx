@@ -89,7 +89,7 @@ export default function Footer({ setIsModalOpen, theme }) {
             <div className="flex items-center gap-3">
               {/* LinkedIn */}
               <a 
-                href="https://linkedin.com/in/vlabunskyi" 
+                href="https://www.linkedin.com/in/vitalii-labunskyi" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="w-8 h-8 rounded bg-secondary-dark/40 border border-accent/15 flex items-center justify-center text-text-secondary hover:text-accent hover:border-accent transition-all"
@@ -99,7 +99,7 @@ export default function Footer({ setIsModalOpen, theme }) {
               </a>
               {/* Upwork */}
               <a 
-                href="https://www.upwork.com" 
+                href="https://www.upwork.com/freelancers/vitaliil29" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="w-8 h-8 rounded bg-secondary-dark/40 border border-accent/15 flex items-center justify-center text-text-secondary hover:text-accent hover:border-accent transition-all font-heading font-black text-[10px]"
