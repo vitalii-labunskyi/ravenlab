@@ -42,16 +42,15 @@ export default function About() {
               <div className="absolute bottom-0 left-0 w-6 h-6 border-b-2 border-l-2 border-accent rounded-bl-2xl" />
               <div className="absolute bottom-0 right-0 w-6 h-6 border-b-2 border-r-2 border-accent rounded-br-2xl" />
 
-              {/* Digital Silhouette */}
-              <div className="w-full h-full rounded-xl bg-gradient-to-b from-secondary-dark/40 to-bg border border-white/5 flex flex-col items-center justify-center relative overflow-hidden group-hover:from-deep-blue/20 transition-all duration-500">
-                <svg className="w-1/2 h-1/2 text-accent/60 group-hover:text-accent group-hover:scale-105 transition-all duration-500" viewBox="0 0 100 100" fill="currentColor">
-                  <path d="M50 50c11.046 0 20-8.954 20-20S61.046 10 50 10s-20 8.954-20 20 8.954 20 20 20zm0 8c-16.568 0-30 13.432-30 30h60c0-16.568-13.432-30-30-30z" opacity="0.85" />
-                  <circle cx="50" cy="30" r="2" fill="currentColor" className="text-text-primary" />
-                  <line x1="50" y1="50" x2="50" y2="58" stroke="currentColor" strokeWidth="1.5" className="text-accent" />
-                  <circle cx="50" cy="58" r="3" fill="currentColor" className="text-accent" />
-                </svg>
+              {/* Photo Container */}
+              <div className="w-full h-full rounded-xl bg-gradient-to-b from-secondary-dark/40 to-bg border border-white/5 flex items-center justify-center relative overflow-hidden transition-all duration-500">
+                <img 
+                  src="/vitalii.jpg" 
+                  alt="Vitalii Labunskyi" 
+                  className="w-full h-full object-cover rounded-xl filter grayscale contrast-110 brightness-95 group-hover:grayscale-0 group-hover:scale-105 transition-all duration-500"
+                />
                 {/* Scanner Overlay Line */}
-                <div className="absolute inset-x-0 top-0 h-[2px] bg-accent/40 shadow-[0_0_8px_rgba(139,92,246,0.5)] animate-scanline" />
+                <div className="absolute inset-x-0 top-0 h-[2px] bg-accent/40 shadow-[0_0_8px_var(--color-accent)] animate-scanline" />
               </div>
 
             </div>
