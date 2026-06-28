@@ -47,7 +47,7 @@ export default function About() {
                 <img 
                   src="/vitalii.jpg" 
                   alt="Vitalii Labunskyi" 
-                  className="w-full h-full object-cover rounded-xl filter grayscale contrast-110 brightness-95 group-hover:grayscale-0 group-hover:scale-105 transition-all duration-500"
+                  className="w-full h-full object-cover rounded-xl filter contrast-105 brightness-95 group-hover:scale-105 transition-all duration-500"
                 />
                 {/* Scanner Overlay Line */}
                 <div className="absolute inset-x-0 top-0 h-[2px] bg-accent/40 shadow-[0_0_8px_var(--color-accent)] animate-scanline" />
