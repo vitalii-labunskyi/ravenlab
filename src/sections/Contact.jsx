@@ -264,7 +264,7 @@ export default function Contact({ isModalOpen, setIsModalOpen }) {
                       )}
                     </Button>
                     <span className="text-[10px] text-text-secondary/50 font-heading uppercase tracking-widest text-center sm:text-left">
-                      Or email direct: <a href="mailto:hello@ravenlab.studio" className="text-accent underline">hello@ravenlab.studio</a>
+                      Or email direct: <a href="mailto:info@ravenlab.pro" className="text-accent underline">info@ravenlab.pro</a>
                     </span>
                   </div>
                 </form>

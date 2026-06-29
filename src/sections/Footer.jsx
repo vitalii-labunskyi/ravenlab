@@ -62,7 +62,7 @@ export default function Footer({ setIsModalOpen, theme }) {
               Contact
             </h4>
             <ul className="space-y-2 text-xs font-heading text-text-secondary/70">
-              <li><a href="mailto:hello@ravenlab.studio" className="hover:text-accent transition-colors">hello@ravenlab.studio</a></li>
+              <li><a href="mailto:info@ravenlab.pro" className="hover:text-accent transition-colors">info@ravenlab.pro</a></li>
               <li className="select-text">+38 (063) 123 45 67</li>
               <li className="select-text">Kyiv, Ukraine</li>
             </ul>
@@ -89,7 +89,7 @@ export default function Footer({ setIsModalOpen, theme }) {
             <div className="flex items-center gap-3">
               {/* LinkedIn */}
               <a 
-                href="https://www.linkedin.com/in/vitalii-labunskyi" 
+                href="https://www.linkedin.com/in/vitalii-labunskyi/" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="w-8 h-8 rounded bg-secondary-dark/40 border border-accent/15 flex items-center justify-center text-text-secondary hover:text-accent hover:border-accent transition-all"
